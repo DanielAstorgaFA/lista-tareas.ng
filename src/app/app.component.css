@@ -1,13 +1,23 @@
-#home-container{
+#home-container {
   background-color: rgb(93, 46, 141);
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
+  height: 100vh;   
+  overflow: hidden; 
 }
 
-#list-container{
-  padding-top: 20px;
-  height: auto;
+button{
+  background-color: green;
+}
+
+#list-container {
+  flex: 1;             
+  padding-top: 30px;
+  overflow-y: auto;   
+  width: 50%; 
+  padding-bottom: 120px; 
 }
 
 h2 {
@@ -77,3 +87,4 @@ footer {
   text-align: center;
   padding: 10px;
 }
+

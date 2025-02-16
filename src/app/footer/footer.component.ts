@@ -14,6 +14,6 @@ export class FooterComponent {
       const month = fechaHoy.getMonth();
       const year = fechaHoy.getFullYear();
       
-      return `Daniel Astorga López, ${dia } de ${month} de ${year}`;
+      return `Daniel Astorga López, ${dia } / ${month} / ${year} © Todos los derechos reservaditos`;
   }
 }

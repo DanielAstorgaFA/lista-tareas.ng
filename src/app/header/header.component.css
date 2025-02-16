@@ -5,6 +5,12 @@
     width: 100%;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
